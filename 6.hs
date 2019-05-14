@@ -6,4 +6,4 @@ turnAround listRes =  rotate listRes []
       rotate [] listRes = listRes
       rotate (x:xs) listRes = rotate xs (x:listRes)
  
-main = print (turnAround  [1..10] )  -- [1,2,3,4]
+main = print (turnAround  [1..10] )  -- [10,9,8,7,6,5,4,3,2,1]
